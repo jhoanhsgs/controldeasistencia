@@ -1,0 +1,95 @@
+.card-tablas{
+    margin-top: 20px;
+    height: 800%;
+    width: 800%;
+    padding: 5px  5px;
+    border-radius: 6px;    
+}
+.tablas{
+    text-align: center;
+}
+#cabeza{
+    text-align: center;
+}
+.descripcion{
+    font-size: x-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 200%;
+max-height: 100%;
+   
+    text-align: center;
+}
+
+.seleccionar{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#datatable{
+    width:800%;
+    padding:0px ;
+}
+.pie-pagina{
+    width: 100%;
+height: 100%;
+    background-color: #f78649;
+    margin: 300px 0 0;
+}
+.pie-pagina h3{
+color: #1c1c1c;
+    text-align: center;
+}
+.pie-pagina .grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+#fecha{
+    width: 10em;
+    margin:0 485px 10px;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader{
+    background: #fbfbfb;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100000;
+    transition: clip-path 0.5s ease-in-out;
+    clip-path: circle(150% at 100% 0);
+}
+.loader2{
+    clip-path: circle(0% at 100% 0);
+}

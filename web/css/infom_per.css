@@ -1,0 +1,28 @@
+.container{
+   width: 400px;
+   height: 450px;
+   background:#39A900;
+   border-radius: 50px;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    padding: 20px 20px 90px;
+    color:#fff;
+}
+h5{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    padding: 0 30px;
+    color:#fff;
+}
+
+label{
+    text-align: center;
+    color:#fff;
+    
+}

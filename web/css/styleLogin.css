@@ -1,0 +1,79 @@
+.card-body{
+  background:rgb(240, 129, 55);
+  border-radius: 10px;
+  height: 600px;
+  width: 400px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+  
+}
+h1{
+  text-align: center;
+  padding: 20px 30px;
+}
+h2{
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+}
+hr{
+  padding: 20px;
+  width: 80%;
+  margin: 20px;
+}
+.user-img{
+  margin-top: -70px;
+  margin-bottom: 35px;
+}
+
+.user-img img{
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 0px 3px #c68080;
+  border-radius: 50%;
+}
+
+label{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ width: 100%;
+ text-align: left;
+ font-size: larger;
+
+}
+input{
+  padding: 8px;
+  width:80%;
+  margin: 10px 0 30px 50px;
+  
+}
+.btn{
+background: #c68080;
+color: #000;
+padding: 10px;
+width: 70%;
+margin: 20px 70px ;
+border-radius:10px;
+cursor: pointer;
+}
+a{
+  position: relative;
+  padding: 10px;
+  font-size: larger;
+}
+.card input[type="text"],
+.card input[type="password"]{
+ border: none;
+ border-bottom: 1px solid #fff;
+ outline: none;
+ height: 40px;
+ color: #000;
+ font-size: 16px;
+}
+.btn[type="submit"]:hover{
+opacity: 1;
+}
+
+.btn[type="submit"]:active{
+transform: scale(0.95);
+}
